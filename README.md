@@ -1,1 +1,5 @@
 # GoogleMap
+
+```shell
+npm start
+```

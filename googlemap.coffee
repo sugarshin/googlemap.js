@@ -1,4 +1,4 @@
-extend = require 'node.extend'
+extend = require 'extend'
 
 class GoogleMap
   "use strict"
@@ -58,4 +58,4 @@ if typeof define is 'function' and define.amd
 else if typeof module isnt 'undefined' and module.exports
   module.exports = GoogleMap
 else
-  global.GoogleMap or= GoogleMap
+  window.GoogleMap or= GoogleMap
